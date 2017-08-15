@@ -1,0 +1,13 @@
+Binh thuong khi dua widget vao frame thi frame se tu thay doi size sao cho phu hop voi widget
+vay de tranh dieu nay xay ra:
+*******************
+frame = ...
+frame.pack()
+frame.pack_propagate(0)
+label = (frame,...)
+nhu vay se khong lam thay doi size cua frame
+
+DOC FILE TRONG FOLDER
+    for file in glob.glob( os.path.join(path, "*.jpg") ):
+
+
